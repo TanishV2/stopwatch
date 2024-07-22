@@ -1,0 +1,106 @@
+/* ---------Utility Classes----------- */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background:rgb(23, 23, 23);
+}
+
+h1{
+  margin: 1vh 2vh;
+  color: white;
+}
+/* ----------Main Section------------  */
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#stopwatch-container{
+  display: flex;
+  background-color: rgb(43, 43, 43);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 1vh 5vh;
+}
+
+#timer-container{
+  font-size: 1.5em;
+  box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin: 2vh;
+  width: 100%;
+  padding:1vh;
+  text-align: center;
+  color: white;
+}
+
+#buttons-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh;
+}
+
+#buttons-container button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5vh; 
+  border: none;
+  border-radius: 50px; 
+  color: white;
+}
+
+#laps{
+  width: 100%;
+  max-height: 20vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  margin-bottom: 2vh;
+}
+
+#laps li{
+  list-style: none;
+  border: 1px solid white;
+  background-color: rgb(138, 138, 138);
+  border-radius: 4px;
+  padding: 0.7vw;
+  margin: 1vw;
+  text-align: center;
+}
+
+#toggle-button{
+  background-color: #27c6e6;
+  width: 6vh;
+  height: 6vh;
+}
+
+#reset-button,#lap-button{
+  background-color: rgb(93, 93, 93);
+  width: 5vh;
+  height: 5vh;
+}
+
+
+::-webkit-scrollbar{
+  width: 1vh;
+  height: 2vh;
+  background-color: var(--border);
+  border-radius: 4px;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: gray;
+  height: 2vh;
+  border-radius: 4px;
+}
