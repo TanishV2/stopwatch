@@ -71,7 +71,6 @@ main{
 
 #laps li{
   list-style: none;
-  border: 1px solid white;
   background-color: rgb(138, 138, 138);
   border-radius: 4px;
   padding: 0.7vw;
@@ -80,7 +79,7 @@ main{
 }
 
 #toggle-button{
-  background-color: #27c6e6;
+  background-color: #15bcde;
   width: 6vh;
   height: 6vh;
 }
